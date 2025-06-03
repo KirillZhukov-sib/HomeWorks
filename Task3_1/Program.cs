@@ -10,15 +10,28 @@ namespace Task3_1
     {
         static void Main(string[] args)
         {
-            int n = Convert.ToInt32(Console.ReadLine());
-            int abs = 0;
+            Console.WriteLine("Введите поочередно 2 числа");
+            int a1 = Convert.ToInt32(Console.ReadLine());
+            int a2 = Convert.ToInt32(Console.ReadLine());
+            if (a1 > a2)
+            {
+                Console.WriteLine($"{a1}>{a2}");
+            }
+            else
+            {
+                if (a1 < a2)
+                {
+                    Console.WriteLine($"{a1}<{a2}");
+                }
+                else
+                {
+                    Console.WriteLine($"{a1}={a2}");
+                }
 
-            if (n > 0) { abs = n; }
-            else { abs = -0; }
-            Console.WriteLine(abs);
-            Console.ReadKey();
+                Console.WriteLine();
+                Console.ReadKey();
 
-
+            }
         }
     }
 }

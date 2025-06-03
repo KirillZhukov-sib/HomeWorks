@@ -10,35 +10,24 @@ namespace Task3_3
     {
         static void Main(string[] args)
         {
-            int d = Convert.ToInt32(Console.ReadLine());
-            switch (d)
-            {
-                case 1:
-                    Console.WriteLine("Пн");
-                    break;
-                case 2:
-                    Console.WriteLine("Вт");
-                    break;
-                case 3:
-                    Console.WriteLine("Ср");
-                    break;
-                case 4:
-                    Console.WriteLine("Чт");
-                    break;
-                case 5:
-                    Console.WriteLine("Пт");
-                    break;
-                case 6:
-                    Console.WriteLine("Сб");
-                    break;
-                case 7:
-                    Console.WriteLine("Вс");
-                    break;
-            } 
-               
-                    Console.ReadKey();
+            Console.WriteLine("Напишите поочередно 4 числа");
+            int a1 = Convert.ToInt32(Console.ReadLine());
+            int a2 = Convert.ToInt32(Console.ReadLine());
+            int a3 = Convert.ToInt32(Console.ReadLine());
+            int a4 = Convert.ToInt32(Console.ReadLine());
 
-            
+            int m = a1;
+
+            if (a2 > m) { m = a2; }
+            if (a3 > m) { m = a3; }
+            if (a4 > m) { m = a4; };
+
+
+            Console.WriteLine($"Наибольшее число {m}");
+            Console.ReadKey();
+
+
+
         }
     }
 }
