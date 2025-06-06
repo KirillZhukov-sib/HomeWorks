@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B6357FFC-A158-44B3-A427-5179D82399F4}</ProjectGuid>
+    <ProjectGuid>{5EC7DFEB-EBEA-4ABA-B9CE-D7DAD87C78A9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Taks3_1</RootNamespace>
-    <AssemblyName>Taks3_1</AssemblyName>
+    <RootNamespace>Task3_8</RootNamespace>
+    <AssemblyName>Task3_8</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

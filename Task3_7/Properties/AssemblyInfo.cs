@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("Taks2_7")]
+[assembly: AssemblyTitle("Task3_7")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Taks2_7")]
+[assembly: AssemblyProduct("Task3_7")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("011c0ae4-9e8d-45d2-9d25-56d1eb2af8ed")]
+[assembly: Guid("37430839-4cf7-4722-9f61-a240b7a42d78")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
